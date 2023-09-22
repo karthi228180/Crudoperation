@@ -1,9 +1,13 @@
 import React from 'react';
+import "../../App.css";
+
+
 
 function Home() {
+
   return (
-    <div>
-      Hello, welcome to crud operation
+    <div className="title">
+       <h1>Hello, welcome to crud operation</h1>
     </div>
   );
 }
